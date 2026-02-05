@@ -1057,3 +1057,23 @@ body {
         padding: 30px 20px;
     }
 }
+/* Logo Image Styles */
+.logo-image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid var(--accent-light);
+}
+
+.logo-image:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+.footer .logo-image {
+    height: 50px;
+    width: 50px;
+}
